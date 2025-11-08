@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(214, 214, 214);
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  background-color: rgba(98, 98, 98, 0.2);
+  border-radius: 2em;
+  padding: 4em 3em;
+  border: solid 3px black;
+  opacity: 1;
+}
+
+
+
+
+
+.title {
+  font-size: 3em;
+}
+
+hr {
+  width: 100%;
+  background-color: white;
+  height: 5px;
+  border-radius: 1em;
+  border: none;
+}
+
+
+.timer {
+  font-size: 10em;
+  font-weight: 700;
+}
+
+.button-wrapper {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr 1fr;
+}
+
+button {
+  font-size: 2em;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 0.5em 1.5em;
+  border-radius: 0.5em;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-10px);
+}
+
+#start {
+  background-color: rgb(0, 0, 0);
+}
+
+#stop {
+  background-color: rgb(31, 31, 31);
+}
+
+#reset {
+  background-color: rgb(31, 31, 31);
+}
+
+#edit {
+  background-color: rgb(0, 0, 0);
+  padding: 16px 68px;
+}
+
+#btnPip {
+  background-color: rgb(0, 0, 0);
+  padding: 16px 68px;
+  font-size: 2em;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 0.5em 1.5em;
+  border-radius: 0.5em;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.slider-box {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -40px;
+  left: 15px;
+}
+
+
+.slider-box button {
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 0.5em 0.5em;
+  border-radius: 0.5em;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  background-color: rgb(31, 31, 31);
+  margin-left: 32px;
+}
+
+.pipBtn {
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+
+
+

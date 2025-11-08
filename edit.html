@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="edit.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+
+    
+    <div class="left-template-container">
+      <div class="template-button-wrapper">
+        <button id="plus5">+5 Min</button>
+        <button id="plus10">+10 Min</button>
+        <button id="minus5">-5 Min</button>
+        <button id="minus10">-10 Min</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="title">Pomodoro Timer</h1>
+              
+      <hr>
+      <div class="up-time">
+        <button id="minup10"><i class='bx bx-chevron-up'></i></button>
+        <button id="minup1"><i class='bx bx-chevron-up'></i></button>
+        <button id="secup10"><i class='bx bx-chevron-up'></i></button>
+        <button id="secup1"><i class='bx bx-chevron-up'></i></button>
+      </div>
+      
+      <p class="timer" id="timer">     25     :     00</p>
+
+      <div class="down-time">
+        <button id="mindown10"><i class='bx bx-chevron-down'></i></button>
+        <button id="mindown1"><i class='bx bx-chevron-down'></i></button>
+        <button id="secdown10"><i class='bx bx-chevron-down'></i></button>
+        <button id="secdown1"><i class='bx bx-chevron-down'></i></button>
+      </div>
+
+      
+      <div class="button-wrapper">
+        <button id="save">Save</button>
+        <button id="cancel">Cancel</button>
+      </div>
+
+    </div>
+
+    <div class="right-template-container">
+      <div class="template-button-wrapper">
+        <button id="min5">5 Min</button>
+        <button id="min10">10 Min</button>
+        <button id="min15">15 Min</button>
+        <button id="min20">20 Min</button>
+        <button id="min25">25 Min</button>
+        <button id="min30">30 Min</button>
+        <button id="min45">45 Min</button>
+        <button id="min60">60 Min</button>
+      </div>
+    </div>
+
+    
+    <script type="module" src="editTimer.js"></script>
+  </body>
+</html>

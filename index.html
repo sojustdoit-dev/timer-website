@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    
+    
+    <div class="container">
+      
+      <h1 class="title">Pomodoro Timer</h1>
+        
+      <hr>
+
+      <div id="player-container">
+        <div id="player">
+          <p class="timer" id="timer">     25     :     00</p>
+        </div>
+      </div>
+      
+
+      <div class="button-wrapper">
+        <button id="reset">Reset</button>
+        <button id="edit">Edit</button>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        
+      </div>
+
+      <div class="slider-box">
+        <form>
+          <p><label><b>Page Opacity:</b> </label>
+          <input type="range" id="sliderSaturation" min="20" max="100" 
+            value="100" class="sliders"/> 
+            <span id="numSaturation">100</span>%</p>
+        </form>   
+        <button>Don't show Seconds</button>
+      </div>
+
+      <div>
+        <input type="button" value="Enter Picture in Picture" id="btnPip" />
+      </div>
+      
+
+
+    </div>
+    
+
+
+    <script type="module" src="app.js"></script>
+    <script src="pip.js"></script>
+  </body>
+</html>
