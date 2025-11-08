@@ -28,7 +28,7 @@ function showSecondBtn() {
     updateTimer();
   } else {
     showSecond = true;
-    showSeconds.innerHTML = "Don't show Seconds"
+    showSeconds.innerHTML = "Hide Seconds"
     updateTimer();
   }
   
@@ -106,6 +106,7 @@ showSeconds.addEventListener("click", () => {
   showSecondBtn();
   
 });
+
 
 
 
